@@ -4,22 +4,14 @@
     "slug": "pulse-torch",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0D1015",
-    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#0D1015" },
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.pulsetorch.app"
     },
     "android": {
       "package": "com.pulsetorch.app",
-      "adaptiveIcon": {
-        "backgroundColor": "#0D1015",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
       "permissions": ["android.permission.CAMERA", "android.permission.FLASHLIGHT"]
     },
     "plugins": [
