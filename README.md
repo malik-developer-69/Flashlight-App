@@ -47,3 +47,13 @@ timing to cover Bluetooth speaker delay.
 * Everything switches off when the app leaves the foreground.
 * Beat detection is tested on a synthetic 124 bpm track: it found 48 of 49 kicks and
   estimated 123 bpm. Real songs vary, so use Sensitivity and Listen for to tune.
+
+## Get an APK from GitHub (no Android Studio)
+
+1. Create a GitHub repository and upload everything in this folder (keep `.github`).
+2. Open the repository's **Actions** tab. The "Build Android APK" workflow runs on every push,
+   or press **Run workflow**.
+3. When it finishes (about 10 to 20 minutes), open the run and download **pulse-torch-apk**
+   from Artifacts. Unzip it and install the `.apk` on your phone (allow "install unknown apps").
+
+The APK is signed with a debug key, which is fine for your own phone but not for the Play Store.
